@@ -1,0 +1,19 @@
+name: Simple-Broadcast
+main: ro.DarkBug198.SimpleBroadcast.Main
+version: 1.4
+commands:
+   broadcast:
+      description: Broadcast to everyone your important message
+      aliases: [bc, b, servermessage, sm]
+      permission: Broadcast.msg
+   broadcast-title:
+      description: Broadcast to everyone your important message
+      aliases: [bc-t, b-t, servermessage-title, sm-t]
+      permission: Broadcast.title
+permissions:
+   SimpleBroadcast.broadcast:
+     description: Allows users to broadcast message in chat!
+     default: Owner
+   SimpleBroadcast.title:
+     description: Allows users to broadcast message in title!
+     default: Owner
